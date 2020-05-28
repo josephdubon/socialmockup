@@ -1,0 +1,48 @@
+/* Main Body Styles */
+body {}
+
+/* Font Styles */
+h1,
+h2,
+h3,
+h4,
+h5 {}
+
+p {}
+
+/* Link Styles */
+a:link {}
+
+a:visited {}
+
+a:hover {}
+
+a:active {}
+
+/* Icon Styles */
+
+/* Header Styles */
+header {}
+
+.headerTitles {}
+
+.headerTitles h1 {}
+
+.headerTitles h4 {}
+
+.headerImage {}
+
+.headerButtons {}
+
+.headerNavigation {}
+
+/* Button Styles */
+.btn {}
+
+.btn .btnLike {}
+
+.btn .btnFollow {}
+
+.btn .btnMessage {}
+
+.btn .btnMore {}
