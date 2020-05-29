@@ -1,9 +1,9 @@
-/* Reset Box Styles */
+/* Reset Box-Sizing */
 :root {
     box-sizing: border-box;
 }
 
-/* Main Body Styles */
+/* Main Body */
 /* html {} */
 
 body {
@@ -17,27 +17,16 @@ body {
     margin: 0 auto;
 }
 
-/* Font Styles */
-/* h1,
-h2,
-h3,
-h4,
-h5 {}
-
-p {} */
-
-/* Link Styles */
-/* a:link {}
+/* Links */
+a:link {}
 
 a:visited {}
 
 a:hover {}
 
-a:active {} */
+a:active {}
 
-/* Icon Styles */
-
-/* Header Styles */
+/* Header */
 header {
     display: flex;
     flex-flow: row nowrap;
@@ -87,9 +76,25 @@ figure {
     flex-basis: 50%;
 }
 
-.headerNavigation {}
+/* Navigation */
+nav {
+    position: relative;
+    left: 20%;
+    margin: 0;
+}
 
-/* Button Styles */
+.headerNavigation li {
+    display: inline-block;
+    list-style-type: none;
+    padding-bottom: 5px;
+    margin-right: 50px;
+}
+
+.headerNavigation li:first-child {
+    border-bottom: 3px solid #3b5998;
+}
+
+/* Buttons */
 .headerButtons {
     font-size: 0;
     margin: 0;
