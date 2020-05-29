@@ -52,6 +52,7 @@ header {
 figure {
     position: relative;
     top: 50px;
+    background: #3b5998;
     margin: 0;
 }
 
@@ -64,12 +65,13 @@ figure {
 
 .headerTitle {
     font-size: 25px;
-    margin: 0 auto;
+    font-weight: bold;
+    margin: 5px auto;
 }
 
 .headerSubTitle {
     font-size: 18px;
-    font-weight: lighter;
+    font-weight: 100;
     margin: 0 auto;
 
 }
@@ -89,6 +91,7 @@ figure {
 
 /* Button Styles */
 .headerButtons {
+    font-size: 0;
     margin: 0;
     padding: 0;
 }
@@ -100,7 +103,9 @@ figure {
     border-radius: 5%;
 }
 
-.btnLike {}
+.btnLike {
+    margin-right: 10px;
+}
 
 .btnFollow {}
 
