@@ -64,7 +64,14 @@ figure {
 
 .headerImage {}
 
-.headerButtons {}
+.headerButtons {
+    display: inline;
+    text-align: right;
+}
+
+.headerButtons {
+    flex-basis: 50%;
+}
 
 .headerNavigation {}
 
