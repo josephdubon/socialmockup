@@ -1,34 +1,66 @@
+/* Reset Box Styles */
+:root {
+    box-sizing: border-box;
+}
+
 /* Main Body Styles */
-body {}
+/* html {} */
+
+body {
+    margin: 0;
+    background: ghostwhite;
+}
+
+.pageWrapper {
+    width: 850px;
+    margin: 0 auto;
+}
 
 /* Font Styles */
-h1,
+/* h1,
 h2,
 h3,
 h4,
 h5 {}
 
-p {}
+p {} */
 
 /* Link Styles */
-a:link {}
+/* a:link {}
 
 a:visited {}
 
 a:hover {}
 
-a:active {}
+a:active {} */
 
 /* Icon Styles */
 
 /* Header Styles */
-header {}
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: #3b5998;
+    color: white;
+    padding: 15px;
+}
 
-.headerTitles {}
+figure {
+    margin: 0;
+}
 
-.headerTitles h1 {}
+.headerImage {
+    text-align: center;
+    width: 175px;
+    height: 175px;
+    border: 1px solid black;
+}
 
-.headerTitles h4 {}
+.headerTitle {}
+
+.headerSubTitle {}
 
 .headerImage {}
 
@@ -37,7 +69,7 @@ header {}
 .headerNavigation {}
 
 /* Button Styles */
-.btn {}
+/* .btn {}
 
 .btn .btnLike {}
 
@@ -45,4 +77,4 @@ header {}
 
 .btn .btnMessage {}
 
-.btn .btnMore {}
+.btn .btnMore {} */
