@@ -7,8 +7,9 @@
 /* html {} */
 
 body {
-    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
     background: ghostwhite;
+    margin: 0;
 }
 
 .pageWrapper {
@@ -44,10 +45,13 @@ header {
     align-items: flex-end;
     background: #3b5998;
     color: white;
+    height: 33.33vh;
     padding: 15px;
 }
 
 figure {
+    position: relative;
+    top: 50px;
     margin: 0;
 }
 
@@ -58,9 +62,17 @@ figure {
     border: 1px solid black;
 }
 
-.headerTitle {}
+.headerTitle {
+    font-size: 25px;
+    margin: 0 auto;
+}
 
-.headerSubTitle {}
+.headerSubTitle {
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 0 auto;
+
+}
 
 .headerImage {}
 
@@ -76,12 +88,22 @@ figure {
 .headerNavigation {}
 
 /* Button Styles */
-/* .btn {}
+.headerButtons {
+    margin: 0;
+    padding: 0;
+}
 
-.btn .btnLike {}
+.btn {
+    font-weight: bold;
+    padding: 5px;
+    margin: 0;
+    border-radius: 5%;
+}
 
-.btn .btnFollow {}
+.btnLike {}
 
-.btn .btnMessage {}
+.btnFollow {}
 
-.btn .btnMore {} */
+.btnMessage {}
+
+.btnMore {}
