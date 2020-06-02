@@ -8,11 +8,11 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: ghostwhite;
     margin: 0;
 }
 
 .pageWrapper {
+    background: #f7f7f7;
     width: 850px;
     margin: 0 auto;
 }
@@ -62,10 +62,7 @@ figure {
     font-size: 18px;
     font-weight: 100;
     margin: 0 auto;
-
 }
-
-.headerImage {}
 
 .headerButtons {
     display: inline;
@@ -78,9 +75,14 @@ figure {
 
 /* Navigation */
 nav {
-    position: relative;
-    left: 20%;
+    background-color: white;
+    padding-left: 20%;
     margin: 0;
+}
+
+ul.headerNavigation {
+    padding-top: 15px;
+    margin: 0 0 10px 0;
 }
 
 .headerNavigation li {
@@ -117,3 +119,32 @@ nav {
 .btnMessage {}
 
 .btnMore {}
+
+/* Main Section Left Column */
+
+main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    justify-items: flex-start;
+    background-color: #f7f7f7;
+}
+
+main>section {
+    border: 1px solid #eeeeee;
+}
+
+.leftCol {
+    flex-basis: 328px;
+    background-color: #ffffff;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+.rightCol {
+    flex-basis: 512px;
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+/* Main Section Right Column */
