@@ -120,7 +120,7 @@ ul.headerNavigation {
 
 .btnMore {}
 
-/* Main Section Left Column */
+/* Main Section */
 
 main {
     display: flex;
@@ -131,20 +131,40 @@ main {
 }
 
 main>section {
+    background-color: #ffffff;
     border: 1px solid #eeeeee;
+    margin-bottom: 10px;
 }
+
+/* Main Section Left Column */
 
 .leftCol {
     flex-basis: 328px;
-    background-color: #ffffff;
-    padding: 15px;
     margin-right: 10px;
 }
 
-.rightCol {
-    flex-basis: 512px;
-    background-color: #ffffff;
+.aboutCol {
     padding: 15px;
 }
 
 /* Main Section Right Column */
+
+.rightCol {
+    flex-basis: 512px;
+    padding: 15px 0;
+}
+
+.feedCol>small {
+    padding: 0 15px;
+}
+
+.feedImage {
+    background-color: #3b5998;
+    width: 100%;
+    height: 200px;
+}
+
+footer {
+    width: 328px;
+    padding: 15px;
+}
