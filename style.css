@@ -19,6 +19,7 @@ body {
     background: var(--altWhite);
     width: 850px;
     margin: 0 auto;
+    border: 1px solid var(--altGray);
 }
 
 /* Links */
