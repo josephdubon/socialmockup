@@ -1,6 +1,10 @@
 /* Reset Box-Sizing */
 :root {
     box-sizing: border-box;
+    --darkBlue: #3b5998;
+    --altWhite: #f7f7f7;
+    --white: #ffffff;
+    --altGray: #eeeeee;
 }
 
 /* Main Body */
@@ -12,7 +16,7 @@ body {
 }
 
 .pageWrapper {
-    background: #f7f7f7;
+    background: var(--altWhite);
     width: 850px;
     margin: 0 auto;
 }
@@ -32,7 +36,7 @@ header {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: flex-end;
-    background: #3b5998;
+    background: var(--darkBlue);
     color: white;
     height: 33.33vh;
     padding: 15px;
@@ -41,7 +45,7 @@ header {
 figure {
     position: relative;
     top: 50px;
-    background: #3b5998;
+    background: var(--darkBlue);
     margin: 0;
 }
 
@@ -75,7 +79,7 @@ figure {
 
 /* Navigation */
 nav {
-    background-color: white;
+    background-color: var(--white);
     padding-left: 20%;
     margin: 0;
 }
@@ -93,7 +97,7 @@ ul.headerNavigation {
 }
 
 .headerNavigation li:first-child {
-    border-bottom: 3px solid #3b5998;
+    border-bottom: 3px solid var(--darkBlue);
 }
 
 /* Buttons */
@@ -127,12 +131,12 @@ main {
     flex-flow: row nowrap;
     justify-content: space-between;
     justify-items: flex-start;
-    background-color: #f7f7f7;
+    background-color: var(--altWhite);
 }
 
 main>section {
-    background-color: #ffffff;
-    border: 1px solid #eeeeee;
+    background-color: var(--white);
+    border: 1px solid var(--altGray);
     margin-bottom: 10px;
 }
 
@@ -159,7 +163,7 @@ main>section {
 }
 
 .feedImage {
-    background-color: #3b5998;
+    background-color: var(--darkBlue);
     width: 100%;
     height: 200px;
 }
